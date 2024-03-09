@@ -24,8 +24,8 @@
 #define SCRSHOT &kp LG(LS(N5))
 #define GLO_MOD LS(LALT)
 #define GLM_ESC &mt GLO_MOD ESC
-#define C_VOL_D &kp LALT(LS(C_VOL_DN))
-#define C_VOL_U &kp LALT(LS(C_VOL_UP))
+#define C_VOL_D &kp LS(LA(C_VOL_DN))
+#define C_VOL_U &kp LS(LA(C_VOL_UP))
 #define BT(n) BT_SEL n
 
 // Using layer taps on thumbs, having quick tap as well helps w/ repeating space/backspace
