@@ -85,7 +85,7 @@ LSFT_LB      &kp Z        &kp X        &kp C        &kp V        &kp B        &t
         bindings = <
 &kp TILDE    &kp EXCL     &kp AT       &kp HASH     &kp DLLR     &kp PRCNT                 &kp CARET    &kp AMPS     &kp ASTRK    &kp LPAR     &kp RPAR     &trans
 &kp GRAVE    &kp N1       &kp N2       &kp N3       &kp N4       &kp N5                    &kp N6       &kp N7       &kp N8       &kp N9       &kp N0       &kp PIPE
-&trans       &kp C_MUTE   &kp C_VOL_D  &kp C_VOL_U  &tp_media    &trans       &trans       &trans       &kp MINUS    &kp UNDER    &kp EQUAL    &kp PLUS     &kp BSLH
+&trans       &kp C_MUTE   C_VOL_D      C_VOL_U      &tp_media    &trans       &trans       &trans       &kp MINUS    &kp UNDER    &kp EQUAL    &kp PLUS     &kp BSLH
                           &trans       &trans       &trans       &trans                    &trans       &trans       &trans       &trans
         >;
     };
@@ -95,7 +95,7 @@ LSFT_LB      &kp Z        &kp X        &kp C        &kp V        &kp B        &t
         bindings = <
 &kp TILDE    &kp EXCL     &kp AT       &kp HASH     &kp DLLR     &kp PRCNT                 &kp CARET    &kp AMPS     &kp ASTRK    &kp LPAR     &kp RPAR     &trans
 &kp GRAVE    &kp N1       &kp N2       &kp N3       &kp N4       &kp N5                    &kp N6       &kp N7       &kp N8       &kp N9       &kp N0       &kp PIPE
-&trans       &kp C_MUTE   &kp C_VOL_D  &kp C_VOL_U  &tp_media    &trans       &trans       &trans       &kp MINUS    &kp UNDER    &kp EQUAL    &kp PLUS     &kp BSLH
+&trans       &kp C_MUTE   C_VOL_D      C_VOL_U      &tp_media    &trans       &trans       &trans       &kp MINUS    &kp UNDER    &kp EQUAL    &kp PLUS     &kp BSLH
                           &trans       &trans       &trans       &trans                    &trans       &trans       &trans       &trans
         >;
     };
