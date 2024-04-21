@@ -16,18 +16,18 @@
 #define MAGIC   5
 
 // Readability keycodes
-#define LOW_ENT  &lt LOWER ENTER
-#define RAI_ENT  &lt RAISE ENTER
-#define LSFT_LB  &mt LSHFT LBKT
-#define RSFT_RB  &mt RSHFT RBKT
-#define RSFT_ENT &mt RSHFT ENTER
+#define BT(n) BT_SEL n
 #define CTL_SPC  &mt LCTRL SPACE
-#define SCRSHOT  &kp LG(LS(N5))
-#define GLO_MOD  LS(LALT)
-#define GLM_ESC  &mt GLO_MOD ESC
 #define C_VOL_D  &kp LS(LA(C_VOL_DN))
 #define C_VOL_U  &kp LS(LA(C_VOL_UP))
-#define BT(n) BT_SEL n
+#define GLM_ESC  &mt GLO_MOD ESC
+#define GLO_MOD  LS(LALT)
+#define LOW_ENT  &lt LOWER ENTER
+#define LSFT_LB  &mt LSHFT LBKT
+#define RAI_ENT  &lt RAISE ENTER
+#define RSFT_ENT &mt RSHFT ENTER
+#define RSFT_RB  &mt RSHFT RBKT
+#define SCRSHOT  &kp LG(LS(N5))
 
 // Using layer taps on thumbs, having quick tap as well helps w/ repeating space/backspace
 &lt {
